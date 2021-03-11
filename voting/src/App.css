@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  background-color: whitesmoke;
 }
 
 body {
@@ -11,7 +12,8 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 0;
+
 }
 
 .languages {
@@ -41,10 +43,26 @@ h1 {
 }
 
 .language button {
-  color: green;
-  background-color: #0000;
+  color: rgb(228, 189, 16);
+  background-color: black;
   border: none;
-  font-size: 30px;
+  font-size: 20px;
   outline: none;
+  padding: 5px;
   cursor: pointer;
+}
+
+.header {
+  background-color: rgb(228, 189, 16);
+  padding: 2rem;
+  font-weight: bolder;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  padding: 1rem;
+  background-color: rgb(228, 189, 16);
+
 }
